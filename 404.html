@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+  <meta name="robots" content="noarchive, noindex">
+  <meta name="robots" content="noindex">
+    <title>Forbidden Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ff0000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .cross {
+            width: 40px;
+            height: 6px;
+            background-color: #ffffff;
+            transform: rotate(45deg);
+            position: relative;
+        }
+
+        .cross::after {
+            content: "";
+            width: 40px;
+            height: 6px;
+            background-color: #ffffff;
+            position: absolute;
+            top: -12px;
+            left: 0;
+            transform: rotate(-90deg);
+        }
+
+        .message {
+            font-size: 20px;
+            color: #000000;
+        }
+
+.button{    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "微软雅黑","黑体","宋体",Meiryo,sans-serif;
+    -webkit-box-direction: normal;
+    font-weight: 400;
+    box-sizing: inherit;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    background: 0 0;
+    text-decoration: none;
+    transition: none 86ms ease-out;
+    -webkit-appearance: none;
+    vertical-align: top;
+    white-space: nowrap;
+    background-color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid #d3d6db;
+    border-radius: 3px;
+    display: inline-flex;
+    font-size: 14px;
+    height: 32px;
+    line-height: 24px;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    user-select: none;
+    border-color: #aeb1b5;
+    color: #222324;}
+    </style>
+<script src="chrome-extension://nngceckbapebfimnlniiiahkandclblb/content/fido2/page-script.js"></script></head>
+
+<body>
+    <div class="circle">
+        <div class="cross"></div>
+    </div>
+    <div class="message">本页面不对 CN 居民提供服务</div><br><a class="button" href="https://xlog.cjh0613.com/">移步首页 | Home Page</a>
+</body></html>
